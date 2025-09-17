@@ -57,10 +57,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="Views\LoginView.xaml.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Remove="Views\LoginView.xaml" />
 	</ItemGroup>
 
