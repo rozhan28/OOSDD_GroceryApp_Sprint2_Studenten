@@ -7,7 +7,7 @@ Hieronder vindt je richtlijnen voor het gebruik van Gitflow, commit conventies, 
 1. Gitflow workflow
 Deze repository gebruikt gitflow om development gestructureerd te houden.
 
-Branch structuur
+Branch structuur:
 
 Branch type:                 Doel:
 - Main                        - Productieklare code
@@ -24,10 +24,10 @@ Tijdens het werken commit je en beschrijf je duidelijk wat er veranderd is. Zodr
 
 Feature branches
 - Maak altijd vanaf develop
-- Branch naam: feature/UC#-korte-beschrijving
-- Commit met duidelijk berichten
-- Push naar remote en maak een Pull request naar develop
-- Verwijder feature branch na merge
+- Branch naam: feature/UC#-korte-beschrijving-
+- Commit met duidelijk berichten.
+- Push naar remote en maak een Pull request naar develop.
+- Verwijder feature branch na merge.
 
 Als we een release voorbereiden, bijvoorbeeld versie 1.0.0, maken we een release branch van develop. Hierin doen we alleen nog kleine bugfixes, documentatie, updates of andere kleine aanpassingen.
 Wanneer de release klaar is, merge je deze naar main en ook terug gemergd naar develop zodat er niks verloren gaat. 
